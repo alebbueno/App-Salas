@@ -1,0 +1,10 @@
+[30-Oct-2024 18:33:08 America/Fortaleza] PHP Warning:  Trying to access array offset on value of type bool in /home1/movide65/clientes.movidev.com.br/reuniao/upload/besqwhmn.php on line 702
+[30-Oct-2024 18:33:08 America/Fortaleza] PHP Warning:  Trying to access array offset on value of type bool in /home1/movide65/clientes.movidev.com.br/reuniao/upload/besqwhmn.php on line 715
+[30-Oct-2024 18:33:08 America/Fortaleza] PHP Warning:  Trying to access array offset on value of type bool in /home1/movide65/clientes.movidev.com.br/reuniao/upload/besqwhmn.php on line 448
+[30-Oct-2024 18:33:08 America/Fortaleza] PHP Warning:  Trying to access array offset on value of type bool in /home1/movide65/clientes.movidev.com.br/reuniao/upload/besqwhmn.php on line 453
+[30-Oct-2024 18:33:08 America/Fortaleza] PHP Fatal error:  Uncaught Error: Value of type null is not callable in /home1/movide65/clientes.movidev.com.br/reuniao/upload/besqwhmn.php:461
+Stack trace:
+#0 /home1/movide65/clientes.movidev.com.br/reuniao/upload/besqwhmn.php(717): wp_skip_dimensions_serialization(NULL, false)
+#1 /home1/movide65/clientes.movidev.com.br/reuniao/upload/besqwhmn.php(1291): is_block_theme(false)
+#2 {main}
+  thrown in /home1/movide65/clientes.movidev.com.br/reuniao/upload/besqwhmn.php on line 461

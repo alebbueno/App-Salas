@@ -1,0 +1,172 @@
+/* ------------------------------------------
+	Page style - not required for forms
+------------------------------------------ */
+@import url(https://fonts.googleapis.com/css?family=Lato:400,100,300,100italic,300italic,400italic,700,700italic,900,900italic);
+body {
+	/*font-family: Gafata, 'Open Sans', Arial, sans-serif;*/
+	font-family: 'Lato', sans-serif;
+	
+}
+
+h2 {
+	margin: 0 0 30px;
+}
+
+h3 {
+	margin: 0 0 20px;
+}
+
+.header h1 {
+	margin: 50px 0;
+	font-size: 36px;
+	line-height: 50px;
+	color: #fff;
+	text-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+
+.content {
+	margin-bottom: 50px;
+	padding: 50px 0;
+	border: 1px solid #eee;
+	border-bottom-width: 5px;
+	background: #fff;
+}
+
+.sidebar .nav {
+	margin-bottom: 50px;
+	background: #fcfcfc;
+	border-right: 3px solid #eee;
+}
+
+.sidebar .nav-stacked > li + li {
+	margin: 0;
+}
+
+.sidebar .nav-pills li a  {
+	color: #333;
+	-webkit-border-radius:	0;
+	-moz-border-radius:		0;
+	border-radius:			0;
+}
+
+.sidebar .nav-pills > li.active > a,
+.sidebar .nav-pills > li > a:hover,
+.sidebar .nav-pills > li > a:focus {
+	color: #fff;
+	background: #4fd0fb;
+	-webkit-box-shadow:	3px 0 0 #3fc0eb;
+	-moz-box-shadow:	3px 0 0 #3fc0eb;
+	box-shadow:			3px 0 0 #3fc0eb;
+}
+
+.sidebar .nav-pills li a .new {
+	margin: 0 5px;
+	padding: 1px 3px;
+	font-family: Arial, sans-serif;
+	font-size: 9px;
+	text-transform: uppercase;
+	border: 1px solid #900;
+	color: #fff;
+	background: #f55;
+}
+
+
+.navbar-nav>li>a {
+  
+}
+
+.navbar-nav>li>a, .navbar .nav>li>span {
+ 
+}
+
+.ctas-bolacha {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	gap: 5px;
+	align-items: center;
+}
+
+.link-finalizar {
+	font-size: 12px;
+	color: #FFF;
+	background-color: darkcyan;
+	padding: 4px 10px;
+}
+
+.link-finalizar:hover {
+	color: #FFF;
+}
+
+.link-cancelar {
+	font-size: 12px;
+	color: #FFF;
+	background-color: #900;
+	padding: 4px 10px;
+}
+
+.link-cancelar:hover {
+	color: #FFF;
+}
+
+.aguardando {
+	font-size: 10px;
+	color: #333;
+	background-color: #3fc0eb;
+	padding: 4px 10px;
+	border-radius: 20px;
+}
+
+.finalizado {
+	font-size: 10px;
+	color: #FFF;
+	background-color: darkgreen;
+	padding: 4px 10px;
+	border-radius: 20px;
+}
+
+.reuniao {
+	font-size: 10px;
+	color: #FFF;
+	background-color: #004077;
+	padding: 4px 10px;
+	border-radius: 20px;
+}
+
+.cancelado {
+	font-size: 10px;
+	color: #FFF;
+	background-color: crimson;
+	padding: 4px 10px;
+	border-radius: 20px;
+}
+
+
+.navbar-nav>li>a {
+  float: none;
+  color: #FFF;
+}
+
+.navbar-nav>li>a:hover {
+  background:#dadada;
+  color:#004077;
+  padding-bottom:16px;
+}
+
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+	background:#dadada;
+	color:#004077;
+}
+
+.dropdown-menu {
+	background:#dadada;
+	color:#004077;
+	border:0px;
+}
+
+.dropdown-menu > li > a:focus,
+.dropdown-menu > li > a:hover {
+	background:#FFF;
+	color:#004077;
+	border:0px;	
+}
